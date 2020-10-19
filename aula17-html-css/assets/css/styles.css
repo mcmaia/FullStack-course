@@ -1,4 +1,4 @@
-.header {
+.header{
     height: 150px;
     background-color: aqua;
     margin-bottom: 15px;
@@ -9,10 +9,4 @@
     height: 150px;
     margin-bottom: 15px;
 
-}
-
-.footer {
-    background-color: orange;
-    height: 150px;
-    
 }
