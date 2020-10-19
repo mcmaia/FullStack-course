@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 28px;
+    border-bottom: 3px solid indigo;
+    padding: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+section {
+    width: 50%;
+    margin-left: 25%;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    padding: 30px 0;
+    border: 1px dashed black;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* main axis*/
+    align-items: center; /* cross axis*/
+    border: 1px solid black;
+    height: 85vh;
+
+}
+
+
+div.caixa1 {
+    background: orange;
+    border: 5px solid black;
+    float: left;
+    flex-grow: 1;
+    align-self: flex-start;
+
+}
+
+div.caixa2{
+    background: blueviolet;
+    border: 5px dotted white;
+    float: left;
+    flex-grow: 1;
+
+}
+
+div.caixa3{
+    background: red;
+    border-radius: 5%;
+    border: 5px solid yellow;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: white;
+    border-top: 1px solid lightseagreen;
+    padding: 12px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}

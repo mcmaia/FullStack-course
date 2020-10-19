@@ -1,0 +1,55 @@
+main section h1 {
+    text-align: center;
+    font-size: 38px
+}
+
+main section p {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 50px 30px 50px;
+}
+
+main section form{
+    text-align: center;
+}
+
+main section form label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    text-align: left;
+
+}
+
+main section form {
+    display: inline;
+
+}
+
+form div.form-inline div {
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+form div.form-inline input.input-contato {
+    height: 20px;
+    width: 300px;
+
+}
+
+form div.form-inline textarea.textarea-contato {
+    resize: none;
+    width: 635px;
+}
+
+button {
+    color: white;
+    background-color: tomato;
+    
+}
+button:hover{
+    background-color: yellow;
+}

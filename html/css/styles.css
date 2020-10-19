@@ -1,0 +1,62 @@
+body {
+    /* font-family: Arial; */
+    /* background-color: #ccc; */
+    /* background-image: url(../img/teste.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 14px;
+    font-weight: unset;
+    text-align: justify;
+    line-height: 30px;
+    color: rgb(15, 15, 15);
+    opacity: 0.6;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* pseudo seletores */
+
+input:hover {
+    background-color: #cecece;
+}
+
+p:hover {
+    color: rgb(190, 45, 45);
+}
+
+input:focus{
+    width: 250px;
+}
+
+p:nth-child(odd){
+    background-color: gray;
+}
+
+/* faz com que cada caixa fique uma do lado da outra */
+article {
+    float: left;
+    width: 30%
+}
+
+/* faz com que o elemento pai respeite a flutuação das caixas */
+section.noticias {
+    overflow: hidden;
+    margin-left: 8%;
+}

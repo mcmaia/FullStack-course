@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../html/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FORM</h1>
+
+    <form action="" method="POST">
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="Seu nome.."
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Seu email .."
+        required
+      />
+      <br /><br />
+
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Sua senha.."
+        required
+      />
+      <br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <br /><br />
+    <h2>Radio Button & Checkbox</h2>
+
+    <form action="">
+      <label for=""
+        >Você foi ao cinema hoje? <br />
+        <br />
+        <input type="radio" name="cinema" id="sim" value="sim" checked /><label
+          for="sim"
+          >SIM</label
+        >
+        <input type="radio" name="cinema" id="não" value="não" /><label
+          for="não"
+          >NÃO</label
+        > </label
+      ><br />
+      <br />
+
+      <label for="">
+        Qual seu gênero favorito? <br /><br />
+        <input type="checkbox" name="genero" id="acao" value="acao" checked />
+        <label for="acao"
+          >AÇÃO <br /><br />
+          <input type="checkbox" name="genero" id="aventura" value="aventura" />
+          <label for="aventura"
+            >AVENTURA <br /><br />
+            <input type="checkbox" name="genero" id="terror" value="terror" />
+            <label for="terror"
+              >TERROR <br /><br />
+              <input
+                type="checkbox"
+                name="genero"
+                id="romance"
+                value="romance" />
+              <label for="romance"
+                >ROMANCE <br /><br /> </label></label></label></label
+      ></label>
+
+      <label for="country"
+        >Country: <br />
+        <select name="country" id="country">
+          <option value="" selected disabled>Select country</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Uruguai">Uruguai</option>
+        </select>
+      </label>
+      <br /><br />
+
+      <label for="mensagem">Mensagem:</label> <br />
+      <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea
+      ><br />
+
+      <button type="reset">Limpar</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+
+
