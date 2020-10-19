@@ -1,0 +1,19 @@
+article {
+    background-color: #ccc;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin-top: 20px;
+    color: orangered;
+}
+
+button.btn.btn-primary {
+    margin:20px;
+    background-color: orangered;
+    border-color: orangered;
+}
