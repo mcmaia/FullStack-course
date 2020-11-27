@@ -1,0 +1,25 @@
+<%- include('./partials/header') %> 
+
+<main>
+    <h1>Estudantes</h1>
+    <hr>
+
+    <%
+      let estudantes =[
+      {nome: 'Marcelo', curso: 'FS Blend', email: 'marcelo@gmail.com'},
+      {nome: 'Sarah', curso: 'História', email: 'sarah@gmail.com'},
+      {nome: 'Caetano', curso: 'Pulador', email: 'caetano@gmail.com'}
+      ];
+    %>
+
+    <ul>
+      <% for (let estudante of estudantes) { %>
+
+        <li>Estudante <%= estudante.nome  %> faz o curso de <%= estudante.curso %>. Para contatá-lo(a): <%= estudante.email  %>  </li>
+        
+
+      <% } %>
+    </ul>
+  </main>
+  
+  <%- include('./partials/footer') %>  %> 

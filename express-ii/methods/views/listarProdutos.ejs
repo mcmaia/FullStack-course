@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/css/styles.css">
+  <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lista Produtos</h1>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">Produtos</th>
+          <th scope="col">Preços</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% listaProdutos.forEach(produto => { %>
+        <tr>
+          <th scope="row">1</th>
+
+          <td><%= produto.nome %><form action="/produtos/deletar/<%= produto.id %>?_method=DELETE" method="post">
+            <button type="submit">Deletar</button></td>
+          <td><%= produto.preco %></td>
+          
+          
+          </form>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+
+  </body>
+</html>

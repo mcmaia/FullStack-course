@@ -1,0 +1,26 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+footer {
+  background-color: aquamarine;
+  height: 150px;
+  /* margin-top: 54vh; */
+  text-align: center;
+  border-radius: 20px;
+  position:absolute;
+  bottom:0;
+  position:absolute;
+  bottom:0;
+  width: 93%;
+}
